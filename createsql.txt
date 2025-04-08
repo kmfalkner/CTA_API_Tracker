@@ -1,0 +1,45 @@
+CREATE DATABASE IF NOT EXISTS CTAapp;
+
+USE CTAapp;
+
+DROP TABLE IF EXISTS images;
+DROP TABLE IF EXISTS stops;
+
+
+CREATE TABLE stops
+(
+    stopid       int not null,
+    stopname     varchar(256) not null,
+    PRIMARY KEY  (stopid),
+    UNIQUE       (stopid),
+    UNIQUE       (stopname)
+);
+
+CREATE TABLE images
+(
+    imageid             int not null AUTO_INCREMENT,
+    stopid            	int not null,
+    imagename           varchar(256) not null,  -- original filename from user
+    bucketkey  			varchar(256) not null,  -- filename in S3 (bucketkey)
+    PRIMARY KEY (imageid),
+    FOREIGN KEY (stopid) REFERENCES stops(stopid),
+    UNIQUE      (bucketkey)
+);
+
+DROP USER IF EXISTS 'CTAapp-read-only';
+DROP USER IF EXISTS 'CTAapp-read-write';
+
+
+CREATE USER 'CTAapp-read-only' IDENTIFIED BY '';
+CREATE USER 'CTAapp-read-write' IDENTIFIED BY '';
+
+
+GRANT SELECT, SHOW VIEW ON CTAapp.* 
+      TO 'CTAapp-read-only';
+GRANT SELECT, SHOW VIEW, INSERT, UPDATE, DELETE, DROP, CREATE, ALTER ON CTAapp.* 
+      TO 'CTAapp-read-write';
+      
+FLUSH PRIVILEGES;
+
+
+
