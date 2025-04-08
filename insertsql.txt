@@ -1,0 +1,907 @@
+USE CTAapp;
+
+INSERT INTO stops(stopid, stopname)
+values(30161, '18th (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30162, '18th (54th-Cermak-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30022, '35th-Archer (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30023, '35th-Archer (Midway-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30213, '35-Bronzeville-IIT (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30214, '35-Bronzeville-IIT (63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30245, '43rd (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30246, '43rd (63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30210, '47th (63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30209, '47th (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30237, '47th (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30238, '47th (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30024, '51st (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30025, '51st (63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30113, '54th-Cermak (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30114, '54th-Cermak (Terminal arrival)');
+
+INSERT INTO stops(stopid, stopname)
+values(30177, '63rd (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30178, '63rd (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30191, '69th (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30192, '69th (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30046, '79th (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30047, '79th (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30275, '87th (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30276, '87th (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30089, '95th-Dan Ryan (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30088, '95th-Dan Ryan (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30132, 'Adams-Wabash (Inner Loop)');
+
+INSERT INTO stops(stopid, stopname)
+values(30131, 'Adams-Wabash (Outer Loop)');
+
+INSERT INTO stops(stopid, stopname)
+values(30240, 'Addison (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30239, 'Addison (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30277, 'Addison (Kimball-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30278, 'Addison (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30274, 'Addison (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30273, 'Addison (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30229, 'Argyle (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30230, 'Argyle (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30128, 'Armitage (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30127, 'Armitage (Kimball-Linden-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30032, 'Ashland (Loop-63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30033, 'Ashland (Harlem-54th-Cermak-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30205, 'Ashland (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30206, 'Ashland (Midway-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30057, 'Ashland-63rd (Terminal arrival)');
+
+INSERT INTO stops(stopid, stopname)
+values(30056, 'Ashland-63rd (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30001, 'Austin (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30002, 'Austin (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30243, 'Austin (63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30244, 'Austin (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30013, 'Belmont (O''Hare Branch) (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30012, 'Belmont (O''Hare Branch) (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30258, 'Belmont (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30256, 'Belmont (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30255, 'Belmont (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30257, 'Belmont (Kimball-Linden-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30067, 'Berwyn (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30066, 'Berwyn (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30267, 'Bryn Mawr (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30268, 'Bryn Mawr (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30112, 'California (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30111, 'California (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30266, 'California (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30265, 'California (63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30086, 'California (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30087, 'California (54th-Cermak-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30055, 'Central (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30054, 'Central (63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30242, 'Central (Howard-Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30241, 'Central (Linden-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30151, 'Central Park (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30152, 'Central Park (54th-Cermak-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30194, 'Cermak-Chinatown (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30193, 'Cermak-Chinatown (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30382, 'Cermak-McCormick Place (63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30381, 'Cermak-McCormick Place (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30271, 'Chicago (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30272, 'Chicago (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30138, 'Chicago (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30137, 'Chicago (Kimball-Linden-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30279, 'Chicago (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30280, 'Chicago (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30187, 'Cicero (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30188, 'Cicero (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30009, 'Cicero (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30094, 'Cicero (63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30083, 'Cicero (54th-Cermak-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30082, 'Cicero (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30122, 'Clark-Division (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30121, 'Clark-Division (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30074, 'Clark-Lake (Inner Loop)');
+
+INSERT INTO stops(stopid, stopname)
+values(30075, 'Clark-Lake (Outer Loop)');
+
+INSERT INTO stops(stopid, stopname)
+values(30374, 'Clark-Lake (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30375, 'Clark-Lake (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30085, 'Clinton (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30084, 'Clinton (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30222, 'Clinton (Harlem-54th-Cermak-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30221, 'Clinton (Loop-63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30291, 'Conservatory (63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30292, 'Conservatory (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30140, 'Cottage Grove (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30139, 'Cottage Grove (Terminal arrival)');
+
+INSERT INTO stops(stopid, stopname)
+values(30044, 'Cumberland (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30045, 'Cumberland (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30116, 'Damen-Milwaukee (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30115, 'Damen-Milwaukee (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30019, 'Damen (Loop-bound S)');
+
+INSERT INTO stops(stopid, stopname)
+values(30018, 'Damen (Kimball-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30041, 'Damen (54th-Cermak-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30040, 'Damen (Loop-bound E)');
+
+INSERT INTO stops(stopid, stopname)
+values(30388, 'Damen (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30387, 'Damen (63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30010, 'Davis (Linden-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30011, 'Davis (Howard-Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30133, 'Dempster (Linden-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30134, 'Dempster (Howard-Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30026, 'Dempster-Skokie (Arrival)');
+
+INSERT INTO stops(stopid, stopname)
+values(30027, 'Dempster-Skokie (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30103, 'Diversey (Kimball-Linden-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30104, 'Diversey (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30062, 'Division (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30063, 'Division (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30077, 'Forest Park (Terminal Arrival)');
+
+INSERT INTO stops(stopid, stopname)
+values(30076, 'Forest Park (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30101, 'Foster (Linden-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30102, 'Foster (Howard-Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30168, 'Francisco (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30167, 'Francisco (Kimball-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30234, 'Fullerton (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30236, 'Fullerton (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30235, 'Fullerton (Kimball-Linden-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30233, 'Fullerton (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30100, 'Garfield (63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30099, 'Garfield (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30224, 'Garfield (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30223, 'Garfield (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30096, 'Grand-Milwaukee (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30095, 'Grand-Milwaukee (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30064, 'Grand-State (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30065, 'Grand-State (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30148, 'Granville (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30147, 'Granville (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30183, 'Halsted-63rd (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30184, 'Halsted-63rd (Ashland-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30216, 'Halsted (Midway-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30215, 'Halsted (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30189, 'Harlem (Forest Pk Branch) (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30190, 'Harlem (Forest Pk Branch) (Terminal arrival)');
+
+INSERT INTO stops(stopid, stopname)
+values(30146, 'Harlem (O''Hare Branch) (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30145, 'Harlem (O''Hare Branch) (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30003, 'Harlem (63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30004, 'Harlem (Terminal arrival)');
+
+INSERT INTO stops(stopid, stopname)
+values(30165, 'H.W. Library (Outer Loop)');
+
+INSERT INTO stops(stopid, stopname)
+values(30166, 'H.W. Library (Inner Loop)');
+
+INSERT INTO stops(stopid, stopname)
+values(30286, 'Harrison (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30285, 'Harrison (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30173, 'Howard (Terminal arrival N)');
+
+INSERT INTO stops(stopid, stopname)
+values(30176, 'Howard (Terminal arrival S)');
+
+INSERT INTO stops(stopid, stopname)
+values(30175, 'Howard (Linden, Skokie-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30174, 'Howard (95th-Bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30157, 'Illinois Medical District (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30158, 'Illinois Medical District (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30059, 'Indiana (63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30058, 'Indiana (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30107, 'Irving Park (O''Hare Branch) (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30108, 'Irving Park (O''Hare Branch) (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30282, 'Irving Park (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30281, 'Irving Park (Kimball-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30014, 'Jackson-Dearborn (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30015, 'Jackson-Dearborn (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30110, 'Jackson-State (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30109, 'Jackson-State (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30227, 'Jarvis (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30228, 'Jarvis (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30247, 'Jefferson Park (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30248, 'Jefferson Park (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30226, 'Kedzie (Loop-bound S)');
+
+INSERT INTO stops(stopid, stopname)
+values(30225, 'Kedzie (Kimball-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30207, 'Kedzie (63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30208, 'Kedzie (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30219, 'Kedzie (Loop-bound N)');
+
+INSERT INTO stops(stopid, stopname)
+values(30220, 'Kedzie (Midway-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30202, 'Kedzie (54th-Cermak-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30201, 'Kedzie (Loop-bound E)');
+
+INSERT INTO stops(stopid, stopname)
+values(30049, 'Kedzie-Homan (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30048, 'Kedzie-Homan (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30249, 'Kimball (Terminal arrival)');
+
+INSERT INTO stops(stopid, stopname)
+values(30250, 'Kimball (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30217, 'King Drive (Cottage Grove-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30218, 'King Drive (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30117, 'Kostner (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30118, 'Kostner (54th-Cermak-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30290, 'Lake (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30289, 'Lake (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30135, 'Laramie (63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30136, 'Laramie (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30262, 'LaSalle (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30261, 'LaSalle (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30030, 'LaSalle-Van Buren (Outer Loop)');
+
+INSERT INTO stops(stopid, stopname)
+values(30031, 'LaSalle-Van Buren (Inner Loop)');
+
+INSERT INTO stops(stopid, stopname)
+values(30149, 'Lawrence (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30150, 'Lawrence (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30203, 'Linden (Linden-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30204, 'Linden (Howard-Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30197, 'Logan Square (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30198, 'Logan Square (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30251, 'Loyola (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30252, 'Loyola (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30052, 'Main (Linden-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30053, 'Main (Howard-Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30091, 'Merchandise Mart (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30090, 'Merchandise Mart (Kimball-Linden-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30182, 'Midway (Arrival)');
+
+INSERT INTO stops(stopid, stopname)
+values(30181, 'Midway (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30153, 'Monroe (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30154, 'Monroe (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30211, 'Monroe (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30212, 'Monroe (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30260, 'Montrose (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30259, 'Montrose (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30287, 'Montrose (Kimball-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30288, 'Montrose (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30296, 'Morgan (Harlem-54th-Cermak-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30295, 'Morgan (Loop-63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30020, 'Morse (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30021, 'Morse (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30125, 'North-Clybourn (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30126, 'North-Clybourn (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30079, 'Noyes (Howard-Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30078, 'Noyes (Linden-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30035, 'Oak Park (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30034, 'Oak Park (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30263, 'Oak Park (63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30264, 'Oak Park (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30298, 'Oakton-Skokie (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30297, 'Oakton-Skokie (Dempster-Skokie-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30172, 'O''Hare (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30171, 'O''Hare (Terminal Arrival)');
+
+INSERT INTO stops(stopid, stopname)
+values(30254, 'Paulina (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30253, 'Paulina (Kimball-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30200, 'Polk (54th-Cermak-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30199, 'Polk (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30180, 'Pulaski (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30179, 'Pulaski (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30005, 'Pulaski (63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30006, 'Pulaski (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30185, 'Pulaski (Loop-bound N)');
+
+INSERT INTO stops(stopid, stopname)
+values(30186, 'Pulaski (Midway-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30028, 'Pulaski (Loop-bound E)');
+
+INSERT INTO stops(stopid, stopname)
+values(30029, 'Pulaski (54th-Cermak-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30007, 'Quincy-Wells (Inner Loop)');
+
+INSERT INTO stops(stopid, stopname)
+values(30008, 'Quincy-Wells (Outer Loop)');
+
+INSERT INTO stops(stopid, stopname)
+values(30093, 'Racine (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30092, 'Racine (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30120, 'Ridgeland (Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30119, 'Ridgeland (63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30196, 'Rockwell (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30195, 'Rockwell (Kimball-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30081, 'Roosevelt (Midway-63rd-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30080, 'Roosevelt (Loop-Harlem-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30269, 'Roosevelt (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30270, 'Roosevelt (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30159, 'Rosemont (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30160, 'Rosemont (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30155, 'Sedgwick (Kimball-Linden-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30156, 'Sedgwick (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30017, 'Sheridan (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30016, 'Sheridan (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30293, 'Sheridan (Howard-Linden-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30294, 'Sheridan (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30163, 'South Blvd (Linden-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30164, 'South Blvd (Howard-Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30070, 'Southport (Kimball-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30071, 'Southport (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30036, 'Sox-35th (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30037, 'Sox-35th (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30051, 'State-Lake (Outer Loop)');
+
+INSERT INTO stops(stopid, stopname)
+values(30050, 'State-Lake (Inner Loop)');
+
+INSERT INTO stops(stopid, stopname)
+values(30170, 'Thorndale (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30169, 'Thorndale (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30069, 'UIC-Halsted (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30068, 'UIC-Halsted (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30073, 'Washington (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30072, 'Washington (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30383, 'Washington-Wabash (Outer Loop)');
+
+INSERT INTO stops(stopid, stopname)
+values(30384, 'Washington-Wabash (Inner Loop)');
+
+INSERT INTO stops(stopid, stopname)
+values(30141, 'Washington-Wells (Inner Loop)');
+
+INSERT INTO stops(stopid, stopname)
+values(30142, 'Washington-Wells (Outer Loop)');
+
+INSERT INTO stops(stopid, stopname)
+values(30231, 'Wellington (Kimball-Linden-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30232, 'Wellington (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30042, 'Western (Forest Pk Branch) (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30043, 'Western (Forest Pk Branch) (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30129, 'Western (O''Hare Branch) (O''Hare-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30130, 'Western (O''Hare Branch) (Forest Pk-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30284, 'Western (Loop-bound S)');
+
+INSERT INTO stops(stopid, stopname)
+values(30283, 'Western (Kimball-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30061, 'Western (Midway-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30060, 'Western (Loop-bound N)');
+
+INSERT INTO stops(stopid, stopname)
+values(30143, 'Western (Loop-bound E)');
+
+INSERT INTO stops(stopid, stopname)
+values(30144, 'Western (54th-Cermak-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30106, 'Wilson (95th-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30105, 'Wilson (Howard-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30385, 'Wilson (Loop-bound)');
+
+INSERT INTO stops(stopid, stopname)
+values(30386, 'Wilson (Linden-bound)');
